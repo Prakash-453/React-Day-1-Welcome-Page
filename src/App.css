@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.app{
+  background-color: chartreuse;
+}
+
+.heading{
+  color: red;
+  font-size: large;
+}
+
+
+

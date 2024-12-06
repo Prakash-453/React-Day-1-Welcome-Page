@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from "./logo.svg";
+import "./App.css";
+
+// import Mounting from "./Class Components/LifeCycleMethods/Mounting Phase/Mounting"
+
+import Updating from "./Class Components/LifeCycleMethods/Updating Phase/Updating";
+
+// import FunLifeCycle from "./FunctionalComponents/LifeCycleMethods";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Mounting /> */}
+      <Updating/>
+      {/* <FunLifeCycle/> */}
     </div>
   );
 }
+export default App
 
-export default App;
+
+
+// function App() {
+//   return (
+//     <center>
+//       <h1 className="app">Welcome to React App</h1>
+//     </center>
+//   );
+// }
+
+// function App() {
+//   return (
+//     <div>
+//       <center>
+//         <h1 style={{ color: "red" }}>Time-Table</h1>
+//       </center>
+//     </div>
+//   );
+// }
+
+// export default App;
